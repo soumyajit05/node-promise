@@ -2,13 +2,16 @@
   "name": "node-sample",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "node app.js",
+    "start": "node index.js"
   },
   "author": "jit",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^1.11.0"
+    "eslint": "^3.18.0",
+    "nodemon": "^1.11.0",
+    "nsp": "^2.6.3"
   }
 }

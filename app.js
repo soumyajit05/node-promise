@@ -27,3 +27,5 @@ asyncPromise().then((text) => {
     })
     ;;
 
+let utlClass  = require(`./util.js`);
+console.log(utlClass.defaults(2));
